@@ -29,7 +29,7 @@ export default function Login() {
     try {
       const result = await dispatch(login(formData)).unwrap(); // .unwrap() throws if rejected
       toast.success('Login successful! Welcome back 👋');
-      navigate('/profile');
+      navigate('/');
     } catch (error) {
       // Error already toasted in thunk, but we can reinforce
       toast.error('Login failed. Please check your credentials.');
