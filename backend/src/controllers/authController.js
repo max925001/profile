@@ -7,6 +7,8 @@ const cookieOptions = {
     maxAge: 7*24*60*60*1000,
     httpOnly: true,
     secure: process.env.NODE_ENV === 'production' ? true : false,
+    sameSite:'None',
+    secure: true
     
 
 }
