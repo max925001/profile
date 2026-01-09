@@ -24,6 +24,20 @@ app.use(cors({
 // Routes
 app.use('/api/auth', authRoutes);
 app.use('/api/profile', profileRoutes);
+ const url = "https://profile-y2sd.onrender.com/ping"
+const interval = 300000;
+function reloadWebsite() {
+  axios
+    .get(url)
+    .then((response) => {
+      console.log("website reloded again");
+    })
+    .catch((error) => {
+      console.error(`Error : ${error.message}`);
+    });
+}
+
+setInterval(reloadWebsite, interval);
 
 // Simple health check
 app.get('/health', (req, res) => {

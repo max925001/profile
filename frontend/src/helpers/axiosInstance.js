@@ -1,7 +1,7 @@
 // src/helpers/axiosInstance.js
 import axios from 'axios';
 
-const BASE_URL = "http://localhost:5000/api";
+const BASE_URL = "https://profile-y2sd.onrender.com/api";
 
 
 const axiosInstance = axios.create({
