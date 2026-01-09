@@ -1,7 +1,7 @@
 # Profile Manager App
 
 **Resume Link**: [Download My Resume (PDF)](https://drive.google.com/file/d/1VTYLzAtFU5khXk_-EV7JWmxPeVMG7gOX/view?usp=sharing)  
-**Project Demo Video**: [Watch Demo on YouTube](https://www.youtube.com/watch?v=your-video-id)
+**Project Demo Video**: [Watch Demo on YouTube](https://drive.google.com/file/d/1uXOwTSXLu_tzHFP3Lw3JgEzJDtUlD9xU/view?usp=sharing)
 
 ## Introduction
 
