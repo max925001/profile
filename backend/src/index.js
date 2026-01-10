@@ -6,6 +6,7 @@ import authRoutes from './routes/authRoutes.js';
 import morgan from 'morgan';
 import profileRoutes from './routes/profileRoutes.js';
 import cors from 'cors'
+import axios from 'axios'
 
 
 const app = express();
